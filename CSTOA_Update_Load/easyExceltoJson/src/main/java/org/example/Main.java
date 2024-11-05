@@ -5,7 +5,7 @@ import service.WriteExcel;
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        String PATH = "D:\\CSTOA_Update_Load\\doc\\";//父目录的绝对路径
+        String PATH = "CSTOA_Update_Load\\doc\\";//父目录的绝对路径
         String excelName = "excel.xlsx";
         ReadExcel readExcel = new ReadExcel();
         readExcel.generateJSON(PATH,excelName);
